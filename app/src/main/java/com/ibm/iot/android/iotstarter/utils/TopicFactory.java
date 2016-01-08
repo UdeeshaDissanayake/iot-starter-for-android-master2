@@ -26,7 +26,7 @@ public class TopicFactory {
      * @return The event topic for the specified event string.
      */
     public static String getEventTopic(String event) {
-        return Constants.CONNECT_EVENT + event + Constants.FORMAT_TOPIC;  //change later to event (for enric)
+        return Constants.EVENT_TOPIC + event + Constants.FORMAT_TOPIC;  //change later to event (for enric)
     }
 
     /**
