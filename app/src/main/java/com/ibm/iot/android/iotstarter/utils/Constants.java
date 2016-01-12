@@ -54,7 +54,7 @@ public class Constants {
 
     // IoT topic formats
     public final static String EVENT_TOPIC = "iot-2/evt/";
-    public final static String COMMAND_TOPIC = "iot-2/type/user/id/pharmacist1/cmd/";///type/user/id/pharmacist1
+    public final static String COMMAND_TOPIC = "iot-2/cmd/";///type/user/id/pharmacist1
     public final static String FORMAT_TOPIC = "/fmt/json";
 
     // IoT events and commands
